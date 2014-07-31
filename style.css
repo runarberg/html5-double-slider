@@ -1,0 +1,32 @@
+ul {
+  position: relative;
+  width: 300px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+input[name$="gte"],
+input[name$="lte"] {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100;
+}
+
+input[name$="gte"] {
+  margin-bottom: -1em;
+  left: 250px;
+}
+
+input[name$="lte"] {
+  margin-top: -1em;
+  right: 0;
+}
+
+input[name$="gte"]:focus,
+input[name$="lte"]:focus {
+  /*background-color: unset;*/
+}
